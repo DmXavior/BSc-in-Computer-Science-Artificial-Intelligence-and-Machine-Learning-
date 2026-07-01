@@ -1,0 +1,78 @@
+### SAGE App
+
+Welcome to SAGE, a mental health companion app designed to support and enhance your mental well-being.
+
+## Features
+
+- **Daily Check-ins**: Track your mood and emotions daily.
+- **Guided Meditations**: Access a library of guided meditations to help you relax and focus.
+- **Personalized Insights**: Receive insights and tips based on your check-ins and activities.
+- **Journaling**: Maintain a private journal to reflect on your thoughts and feelings.
+- **Resource Library**: Explore articles, videos, and other resources on mental health topics.
+- **Emergency Contacts**: Quickly access emergency contacts and hotlines when needed.
+
+## Installation & Running (For Dev Collaboration)
+
+1. Make sure Node.js is installed on your machine:
+   https://nodejs.org/en/download/package-manager
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/sage-app.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd sage-app
+   ```
+3. Install frontend dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the front end application:
+   ```bash
+   npm run dev
+   ```
+5. Open second terminal, change to server folder:
+   ```bash
+   cd server
+   ```
+6. Install backend dependencies:
+   ```bash
+   npm install
+   ```
+7. Start server:
+   ```bash
+   npm start
+   ```
+8. Go to localhost:3100
+
+## Contributing
+
+Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m "Description of changes"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request on GitHub.
+
+## License
+
+This project is licensed under the . See the LICENSE file for details.
+
+## Contact
+
+For any questions or feedback, please contact us at
+
+---
+
+Thank you for using SAGE! We hope it helps you on your journey to better mental health.

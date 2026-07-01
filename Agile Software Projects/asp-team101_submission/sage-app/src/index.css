@@ -1,0 +1,164 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Colour Palette 
+#defcf9
+#b7dbd6
+#7cc0cf
+#90d1c8
+#46cebc
+#2b7b70
+#2db479
+#218057
+#65bab3
+#243531
+*/
+
+
+
+/* Custom CSS */
+
+/* General */
+html, body {
+    height: 100%; /* Ensure the html and body fill the full height of the viewport */
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+/* Hide scrollbar for WebKit browsers globally */
+html::-webkit-scrollbar, 
+body::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+/* Hide scrollbar for other browsers globally */
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+}
+
+
+
+/* Chatbot */
+
+/* Enable scrollbar visibility only for chatPreview */
+#chatPreview {
+    overflow-y: auto;
+    scrollbar-width: thin; /* Reset scrollbar hiding for Firefox in chatPreview; Enable scrollbar visibility in Firefox */
+    -ms-overflow-style: scrollbar; /* Reset scrollbar hiding for IE and Edge in chatPreview; Enable scrollbar visibility in IE and Edge */
+
+}
+
+
+/* Navbar */
+.nav-container {
+    background-color: #46cebc;
+    color: #defcf9;
+    z-index: 1000; /* Ensure the nav menu is on top */
+}
+
+
+
+
+/* Landing */
+
+main {
+    background-color: #defcf9;
+}
+
+#WelcomeBanner {
+    background-color: #b7dbd6;
+}
+#LoginButton {
+    background-color: #46cebc;
+}
+#LoginButton:hover {
+    background-color: #2b7b70;
+}
+
+#RegisterButton {
+    background-color: #2db479;
+}
+
+.mainViewBody {
+    background: linear-gradient(to bottom, white, #7cc0cf);
+    /**/
+    min-height: 100vh; /* Ensure the mainViewBody takes at least the full height of the viewport */
+}
+
+
+
+
+
+
+/* Dashboard */
+
+.calendar-view {
+    margin-top: 20px;
+}
+
+.calendar-view table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.calendar-view th, .calendar-view td {
+    padding: 8px;
+    text-align: center;
+}
+
+.calendar-view th {
+    background-color: #7cc0cf;
+    font-weight: bold;
+}
+
+.calendar-view th.rounded-tl-lg {
+    border-top-left-radius: 10px;
+}
+
+.calendar-view th.rounded-tr-lg {
+    border-top-right-radius: 10px;
+}
+
+.calendar-view th.rounded-bl-lg {
+    border-bottom-left-radius: 10px;
+}
+
+.calendar-view th.rounded-br-lg {
+    border-bottom-right-radius: 10px;
+}
+
+
+.affirmation-view {
+    margin-top: 20px;
+}
+
+.journal-view button:hover {
+    background-color: #2b7b70;
+
+}
+
+
+
+
+
+
+/* Profile */
+.profile-container {
+    flex: 1; /* Ensure the profile container grows to fill the available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px; /* Add padding to ensure space at the bottom */
+}
+
+
+
+
+
+
+
