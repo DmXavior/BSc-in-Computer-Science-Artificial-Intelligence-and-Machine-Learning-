@@ -1,0 +1,564 @@
+commit 7de2798cffe61f4ac989977efa94b7e38bacbfa0
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Sun Sep 8 13:46:09 2024 +0800
+
+    Debugged Articles loading
+
+commit f448944651122c1bce64c0238cd6718f81edbd8c
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Sat Sep 7 16:10:49 2024 +0800
+
+    fixed bug
+
+commit dbf43497d28c50e8cbcffe0613f3886c9975ced9
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Sat Sep 7 16:09:02 2024 +0800
+
+    Added article links
+
+commit f24e396c97764d0035e1b6c5bf6be7fa7da1adc4
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Mon Sep 2 19:55:49 2024 +0800
+
+    chore: Remove unnecessary npmignore entries and delete unused lodash and moment files
+
+commit e0da77c19d9c302f1ca49efa61a2405f84841a60
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Mon Sep 2 16:45:35 2024 +0800
+
+    Update scrollbar styles and chat layout in CSS
+
+commit a22978966f6a45dfc9ec097b1af0c965a2995154
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Mon Sep 2 16:45:25 2024 +0800
+
+    Update NavMenu to include SAGE logo and improve responsive design
+
+commit 859ebfc09b3e5c3b563777f73bb8787b8fbbe9e2
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Mon Sep 2 15:23:14 2024 +0800
+
+    chore: Update login form to remove unnecessary alert
+
+commit a9c3bbc7949a6e724735ba15f7efa785a9642409
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Mon Sep 2 15:20:18 2024 +0800
+
+    chore: Update favicon link in index.html
+
+commit c965e0b26c6daddcd5f66a280896e553e7855fd8
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Mon Sep 2 15:13:26 2024 +0800
+
+    chore: Update login form to use anchor tag for registration link
+
+commit 7213a31df8f37e5d8b4f466504a7609c14489e44
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Mon Sep 2 15:00:05 2024 +0800
+
+    chore: Update login and registration forms styling
+
+commit 621f0349846a410d4aaf0a7a98ae1eebbf3b2731
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Mon Sep 2 14:46:30 2024 +0800
+
+    chore: Update user parsing logic in homepage.jsx
+
+commit f15ca10e8a00fbe892bba107182bf7f306934dba
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Mon Sep 2 14:32:21 2024 +0800
+
+    chore: Update NavMenu to include logout button; implement authorised log in
+
+commit 114ce9a88752b922a5e6da3233fbdc48171a2cb0
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Mon Sep 2 13:51:47 2024 +0800
+
+    deleted unused asp-team101 folders
+
+commit acdbb67d9ccf622cf82294cb13098066952ca135
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Sun Sep 1 18:28:24 2024 +0800
+
+    chore: Update MySQL setup instructions and fix syntax error in README.md
+
+commit 90b2e92f94daab3e9ff3d1b0a01f52cf619ecf21
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Sun Sep 1 18:27:12 2024 +0800
+
+    chore: Update installation instructions and add server setup steps
+
+commit 318350972f900787e138d339e20338bb6856f624
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Sun Sep 1 18:06:04 2024 +0800
+
+    chore: Add "Back to Login" link in registration form
+
+commit d9b757d52062ced721d8ea9722c525320054a061
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Sun Sep 1 17:56:52 2024 +0800
+
+    chore: Update login form label from "Email" to "Username"
+
+commit 5b26e234b3f872cbf9e3c900ab4e774138ff0784
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Sat Aug 31 13:21:32 2024 +0800
+
+    chore: Update NavMenu to include SAGE logo
+
+commit 56aa3b8b15aa4fb8b5c0f38e76e39c5846108c99
+Author: suizzzzz <wongsuirong@gmail.com>
+Date:   Sat Aug 31 11:50:48 2024 +0800
+
+    login registration and chatbot are up
+
+commit c38a727d8f0bef2ac8aa34b05b2c751e98d82937
+Author: Mandy Wong <118342592+mandywwl@users.noreply.github.com>
+Date:   Thu Aug 29 23:29:11 2024 +0800
+
+    Delete .DS_Store
+
+commit c95dc9b7345b9aa95073e6ac964f198154855579
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Thu Aug 29 23:12:56 2024 +0800
+
+    Added Landing to NavMenu
+
+commit bcd2f46a93a1a181714703d12b51c35d78d4212b
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Thu Aug 29 22:56:38 2024 +0800
+
+    Changes to insights
+
+commit 8535d0f516f412b509e545ea62ecbf3d9ee9ddf6
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Thu Aug 29 22:54:25 2024 +0800
+
+    Updated Insights page
+
+commit 768ea037dc85fbfbed035f2b3ca3a4283027274f
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Thu Aug 29 22:45:23 2024 +0800
+
+    Made edits to Tracker
+
+commit 0dfcbb9f279c81732bc9ae8814fede51085369a9
+Merge: 256e69a 5ea9bfd
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Thu Aug 29 22:37:30 2024 +0800
+
+    Merge branch 'main' of https://github.com/mandywwl/asp-team101
+
+commit 256e69a57e4d318cbd9101de120766d4d1857f45
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Thu Aug 29 22:37:16 2024 +0800
+
+    Updated Mood Tracker page
+
+commit 5ea9bfd90e4d26f6058ea484cf0964ac0246b341
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Thu Aug 29 21:52:43 2024 +0800
+
+    refactor: Remove unused files and dependencies
+
+commit 18ace4316af05ea5468a96b6680134731bb6da64
+Merge: 89234cf cc607a4
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Thu Aug 29 19:47:35 2024 +0800
+
+    Merge branch 'main' of https://github.com/mandywwl/asp-team101
+
+commit 89234cfd02ef5c25e10048db92897e368af30595
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Thu Aug 29 19:47:27 2024 +0800
+
+    Change navbar route to chatbot
+
+commit cc607a4d8d933d0f57b805d6a3fa4bbc0c0cbbfb
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Thu Aug 29 19:42:57 2024 +0800
+
+    refactor: Update NavMenu component and routes for Chatbot page
+
+commit 95c3c48d8ad1519de34d4863ff5bd285f2a2bce0
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Thu Aug 29 19:33:50 2024 +0800
+
+    Updating navmenu
+
+commit 25a02aa7ad47ad407fd2c2b5eccbb08409d561d1
+Merge: b3b60ac 92eb53c
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Thu Aug 29 19:33:39 2024 +0800
+
+    Merge branch 'main' of https://github.com/mandywwl/asp-team101
+
+commit b3b60ac0d9d254a2ec6d080106f1d7683f7f2e6c
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Thu Aug 29 18:43:04 2024 +0800
+
+    Add Chatbot page
+
+commit 92eb53c1f413a04acd086fe69995b1884c52fa92
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Thu Aug 29 18:19:39 2024 +0800
+
+    refactor: Update NavMenu component in homepage and profile views
+
+commit 710434e1145b4f88f62a68919501713bb41b2ae1
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Thu Aug 29 17:45:46 2024 +0800
+
+    refactor: Update homepage styling and add profile
+
+commit 7b4bc797df9acd8b390482af487e82359f289b10
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Thu Aug 29 09:45:12 2024 +0800
+
+    refactor: Update homepage styling and add journal functionality
+
+commit c723be8d0662890493d5793ca4cdfee94496f5e1
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Thu Aug 29 08:29:36 2024 +0800
+
+    refactor: Update homepage styling and add journal functionality
+    
+    - Update homepage styling to include rounded corners for the calendar view and improve overall layout
+    - Add journal functionality to allow users to write and save daily journal entries
+    - Integrate Slick Carousel library for displaying daily recommended insights and articles
+    
+    Related to: #4
+
+commit 1a9b8d091568ec6752d7824abc6beed1fc344403
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 28 22:41:29 2024 +0800
+
+    refactor: Add rounded corners to calendar view and update homepage styling
+
+commit 3a6a3be67cbd91f0641c94d9ba35a9662683b1fc
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 28 21:30:54 2024 +0800
+
+    Add API endpoint for retrieving random affirmation
+
+commit 3b9b68f0e2a5915f13601fa4643805703540d0e9
+Merge: 67e7a24 f002e29
+Author: Mandy Wong <118342592+mandywwl@users.noreply.github.com>
+Date:   Sun Aug 25 18:18:14 2024 +0800
+
+    Merge pull request #4 from mandywwl:test-folder
+    
+    Add new folder to test-folder branch
+
+commit f002e293fa860a5ae90b96a790cf9e5e10911dc5
+Author: suizzzzz <wongsuirong@gmail.com>
+Date:   Fri Aug 16 17:25:47 2024 +0800
+
+    Add new folder to test-folder branch
+
+commit 67e7a247d989c543da252809a16b4db8b6732c1c
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Sat Aug 10 15:49:56 2024 +0800
+
+    refactor: Update landing page colors and text styles
+
+commit c89c711e8c2476fa987fd052c58f106b565cd4b3
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Sat Aug 10 15:46:17 2024 +0800
+
+    Refactor homepage and profile views to include NavMenu component
+
+commit 651a1e0b92a84d4c9024afcd1b143ae594d98aa4
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Sat Aug 10 15:01:34 2024 +0800
+
+    chore: landing page edits
+
+commit b0e80a50b4e5293ca275401dc80d15e1b1439ae0
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Fri Aug 9 16:08:14 2024 +0800
+
+    refactor: Update import path for index.css in main.jsx
+
+commit 54fae27a2c40ae7258a0388d975da344c716e098
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Fri Aug 9 15:50:35 2024 +0800
+
+    chore: Comment in head of main.jsx for clarification
+
+commit ffc2e3a67e30ead11269bb12b8229bf2fd850fc1
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Fri Aug 9 15:30:00 2024 +0800
+
+    Edited index.html to link to routes folder
+
+commit 76f83554fce83a8674ea218702133f57f7bd10df
+Author: DmXavior <devonmayaxavior@gmail.com>
+Date:   Fri Aug 9 15:16:55 2024 +0800
+
+    move main.jsx to routes folder under src folder
+
+commit dca4e4543893c3d13632cf05d80f245fd16a0891
+Author: Mandy Wong <118342592+mandywwl@users.noreply.github.com>
+Date:   Thu Aug 8 02:14:55 2024 +0800
+
+    Delete .DS_Store
+
+commit b20d6e091491d10268929067407d3d2a8fbde64f
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Thu Aug 8 02:13:05 2024 +0800
+
+    refactor: Update landing page comments and file names for clarity
+
+commit bc5ad00b4551b451d07f073cb359a7c8c4734732
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Thu Aug 8 02:11:23 2024 +0800
+
+    refactor: Update navigation links in NavMenu component
+
+commit 5feea7a09617e6af503ba96f5e5f3f2478d390a1
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Thu Aug 8 01:41:17 2024 +0800
+
+    refactor: Rename App.jsx to Landing.jsx and update imports
+
+commit 932725ba70a888e6e4f0a02f6c3edc7546e5efb2
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Thu Aug 8 00:07:50 2024 +0800
+
+    chore: Update react-router-dom import in main.jsx and views
+
+commit aa4ffbe2f603c1382962883a83e36b57087a885f
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 23:33:39 2024 +0800
+
+    chore: Update react-router-dom to latest version
+
+commit e285c0111ad993aaa12d7f8b63d7641a5b9969d5
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 22:56:36 2024 +0800
+
+    feat: Add NavMenu component for navigation links
+
+commit 5547ade05a96ea303f77af7f50d95d5ecb3e8aa3
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 22:44:05 2024 +0800
+
+    chore: Add react-router-dom to npm dependencies and changed App to Landing for clarity
+
+commit 6d15715848fee91e190b6efc3b1697ca5d753289
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 22:32:38 2024 +0800
+
+    chore: Remove unused HTML files from the public directory
+
+commit d25e3d6faf5d400840bd1540345bf54de7b2ce66
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 21:34:05 2024 +0800
+
+    chore: Update TailwindCSS configuration to include public/index.html
+
+commit da1ba408fc0ac5bafe69f793cf003132d7f77c4a
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 21:23:58 2024 +0800
+
+    chore: Update npm dependencies and add TailwindCSS configuration files
+
+commit 0f27783ecf2885ec611d7bd5046c7c6695fd12e3
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 21:09:55 2024 +0800
+
+    chore: Update npm dependencies (TailwindCSS) in package.json
+
+commit 9f331842d08cd9b2864c3b9d37b6a4261454fd66
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 21:04:48 2024 +0800
+
+    chore: Add profile page to the SAGE app
+
+commit 10f4a004c9fb25e3f6f7ddab71026775eea9cae5
+Author: Mandy Wong <118342592+mandywwl@users.noreply.github.com>
+Date:   Wed Aug 7 20:44:35 2024 +0800
+
+    Edited index.html
+
+commit 8d43a49098f018684052ffb2f86200add2ce27a0
+Author: Mandy Wong <118342592+mandywwl@users.noreply.github.com>
+Date:   Wed Aug 7 17:17:48 2024 +0800
+
+    Edited README
+
+commit a91581a2e270cfc978e6dc9a9537fbe75c2e0b0d
+Author: Mandy Wong <118342592+mandywwl@users.noreply.github.com>
+Date:   Wed Aug 7 17:13:59 2024 +0800
+
+    deleted template README
+
+commit aeb905420c484dbe1a8be377f0d89888b6133d49
+Merge: 869a470 3211842
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 16:52:10 2024 +0800
+
+    Merge branch 'main' of https://github.com/mandywwl/asp-team101
+
+commit 869a4707d07c9f83dc0d26d6cd7d6c0608ede0e8
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 16:47:49 2024 +0800
+
+    chore: Remove react-router-dom import from main.jsx
+
+commit 34ae889c89572806435fd105379f6fb391011606
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 16:45:59 2024 +0800
+
+    chore: Update React imports and add routing for new views
+
+commit 321184241ed2785135e722dc122a214578dc9b6f
+Author: Mandy Wong <118342592+mandywwl@users.noreply.github.com>
+Date:   Wed Aug 7 16:33:19 2024 +0800
+
+    Create README.md
+
+commit 28f677231c7dac8b300953aeaddf7ac7406211f1
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 16:31:47 2024 +0800
+
+    updated index.html
+
+commit 4b908d0746b44f33d1e3043f042dba2b797ac5da
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 16:29:23 2024 +0800
+
+    chore: Update App.jsx and index.html
+
+commit 0094e0824ae7feb144f65123c10ebbaf4c65493c
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 11:31:42 2024 +0800
+
+    chore: Removed placeholder
+
+commit e5dcb758a9fc18c8c1eed7da0e0926bd6099e480
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 11:21:15 2024 +0800
+
+    Removed placeholder
+
+commit 7356ec3af26e62324614d2ffe4f1ea44543ed637
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 11:13:22 2024 +0800
+
+    chore: Remove unused Back-end/main.js file
+
+commit b5c051aabfa4d2765df3523548d6fbd8aebe090f
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 11:11:03 2024 +0800
+
+    chore: Remove unused Back-end/main.js file
+
+commit c002b3f335b276bc93a2e891a86c24ec02371a74
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 11:08:45 2024 +0800
+
+    installed Vite
+
+commit d94d37b1ebdf58ac1e4d33cf052d5f1231979b13
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 10:25:43 2024 +0800
+
+    init base React
+
+commit 1c574c97754080197be8a8001776899d999eec69
+Author: mandywwl <118342592+mandywwl@users.noreply.github.com>
+Date:   Wed Aug 7 00:58:05 2024 +0800
+
+    Update profile.html
+
+commit d49f532bfd083a54f94af46368e99ee23a1f0aa7
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 00:42:48 2024 +0800
+
+    renamed files and added profile page
+
+commit 1f86f00d6d365499f1bf56d6de95b3b4a2de49d8
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 00:36:31 2024 +0800
+
+    Set up base HTML
+
+commit eb6d8d29411a5997f5b7ff2568ee5a278774771d
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Aug 7 00:22:35 2024 +0800
+
+    install bootstrap
+
+commit f5216df831729c26a901a06e0490759ad83759f8
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Thu Aug 1 19:03:56 2024 +0800
+
+    installed node dependencies
+
+commit 37975564a41c31848aae84b45da6918974d2abe0
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Thu Aug 1 18:38:43 2024 +0800
+
+    added index.js entry point file
+
+commit c88e0d6f1345d76bd40f377d864cdc01a019305b
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Thu Aug 1 18:33:50 2024 +0800
+
+    npm initialisation
+
+commit 01e84c3f370b9084144be09f9449cbacc2c41b1d
+Author: suizzzzz <166936212+suizzzzz@users.noreply.github.com>
+Date:   Thu Aug 1 15:24:37 2024 +0800
+
+    Delete Back-end/server.js
+
+commit 7de52aed781d5bf8d74eb65bd88ad1c2573fc6c1
+Author: suizzzzz <166936212+suizzzzz@users.noreply.github.com>
+Date:   Thu Aug 1 15:24:24 2024 +0800
+
+    Delete Back-end/package.json
+
+commit 8ec5c4e3e327ac99ce3e8a7d0f13b685681f1b88
+Author: suizzzzz <166936212+suizzzzz@users.noreply.github.com>
+Date:   Thu Aug 1 15:22:21 2024 +0800
+
+    Add files via upload
+
+commit 61a243b198a94e149eca52d0f6ec573a52a3e1aa
+Author: mandywwl <118342592+mandywwl@users.noreply.github.com>
+Date:   Wed Jul 31 23:24:16 2024 +0800
+
+    Delete .github/workflows/blank.yml
+
+commit 65091bb833827a055a7c000d75458e671acb7f99
+Author: mandywwl <mandywong2002@gmail.com>
+Date:   Wed Jul 31 23:20:57 2024 +0800
+
+    create index.html
+
+commit f77d29662d89ec58fb24ee44b24843756c59da02
+Author: mandywwl <118342592+mandywwl@users.noreply.github.com>
+Date:   Sat Jul 27 11:44:40 2024 +0800
+
+    Create .gitignore
+
+commit 8915e62c36a36eaa2993f20da4ee85336252ec30
+Author: mandywwl <118342592+mandywwl@users.noreply.github.com>
+Date:   Sat Jul 27 10:54:26 2024 +0800
+
+    Update README.md
+
+commit 2c7474c848a5944d06d9c859920f41c3772b13a9
+Author: mandywwl <118342592+mandywwl@users.noreply.github.com>
+Date:   Sat Jul 27 10:48:54 2024 +0800
+
+    Create blank.yml
+
+commit 6524c4f03274f229143871e384a1bfcd2962bc6d
+Author: mandywwl <118342592+mandywwl@users.noreply.github.com>
+Date:   Sat Jul 27 08:25:30 2024 +0800
+
+    Initial commit

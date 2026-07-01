@@ -1,0 +1,92 @@
+7de2798cffe61f4ac989977efa94b7e38bacbfa0 Debugged Articles loading
+f448944651122c1bce64c0238cd6718f81edbd8c fixed bug
+dbf43497d28c50e8cbcffe0613f3886c9975ced9 Added article links
+f24e396c97764d0035e1b6c5bf6be7fa7da1adc4 chore: Remove unnecessary npmignore entries and delete unused lodash and moment files
+e0da77c19d9c302f1ca49efa61a2405f84841a60 Update scrollbar styles and chat layout in CSS
+a22978966f6a45dfc9ec097b1af0c965a2995154 Update NavMenu to include SAGE logo and improve responsive design
+859ebfc09b3e5c3b563777f73bb8787b8fbbe9e2 chore: Update login form to remove unnecessary alert
+a9c3bbc7949a6e724735ba15f7efa785a9642409 chore: Update favicon link in index.html
+c965e0b26c6daddcd5f66a280896e553e7855fd8 chore: Update login form to use anchor tag for registration link
+7213a31df8f37e5d8b4f466504a7609c14489e44 chore: Update login and registration forms styling
+621f0349846a410d4aaf0a7a98ae1eebbf3b2731 chore: Update user parsing logic in homepage.jsx
+f15ca10e8a00fbe892bba107182bf7f306934dba chore: Update NavMenu to include logout button; implement authorised log in
+114ce9a88752b922a5e6da3233fbdc48171a2cb0 deleted unused asp-team101 folders
+acdbb67d9ccf622cf82294cb13098066952ca135 chore: Update MySQL setup instructions and fix syntax error in README.md
+90b2e92f94daab3e9ff3d1b0a01f52cf619ecf21 chore: Update installation instructions and add server setup steps
+318350972f900787e138d339e20338bb6856f624 chore: Add "Back to Login" link in registration form
+d9b757d52062ced721d8ea9722c525320054a061 chore: Update login form label from "Email" to "Username"
+5b26e234b3f872cbf9e3c900ab4e774138ff0784 chore: Update NavMenu to include SAGE logo
+56aa3b8b15aa4fb8b5c0f38e76e39c5846108c99 login registration and chatbot are up
+c38a727d8f0bef2ac8aa34b05b2c751e98d82937 Delete .DS_Store
+c95dc9b7345b9aa95073e6ac964f198154855579 Added Landing to NavMenu
+bcd2f46a93a1a181714703d12b51c35d78d4212b Changes to insights
+8535d0f516f412b509e545ea62ecbf3d9ee9ddf6 Updated Insights page
+768ea037dc85fbfbed035f2b3ca3a4283027274f Made edits to Tracker
+0dfcbb9f279c81732bc9ae8814fede51085369a9 Merge branch 'main' of https://github.com/mandywwl/asp-team101
+256e69a57e4d318cbd9101de120766d4d1857f45 Updated Mood Tracker page
+5ea9bfd90e4d26f6058ea484cf0964ac0246b341 refactor: Remove unused files and dependencies
+18ace4316af05ea5468a96b6680134731bb6da64 Merge branch 'main' of https://github.com/mandywwl/asp-team101
+89234cfd02ef5c25e10048db92897e368af30595 Change navbar route to chatbot
+cc607a4d8d933d0f57b805d6a3fa4bbc0c0cbbfb refactor: Update NavMenu component and routes for Chatbot page
+95c3c48d8ad1519de34d4863ff5bd285f2a2bce0 Updating navmenu
+25a02aa7ad47ad407fd2c2b5eccbb08409d561d1 Merge branch 'main' of https://github.com/mandywwl/asp-team101
+b3b60ac0d9d254a2ec6d080106f1d7683f7f2e6c Add Chatbot page
+92eb53c1f413a04acd086fe69995b1884c52fa92 refactor: Update NavMenu component in homepage and profile views
+710434e1145b4f88f62a68919501713bb41b2ae1 refactor: Update homepage styling and add profile
+7b4bc797df9acd8b390482af487e82359f289b10 refactor: Update homepage styling and add journal functionality
+c723be8d0662890493d5793ca4cdfee94496f5e1 refactor: Update homepage styling and add journal functionality
+1a9b8d091568ec6752d7824abc6beed1fc344403 refactor: Add rounded corners to calendar view and update homepage styling
+3a6a3be67cbd91f0641c94d9ba35a9662683b1fc Add API endpoint for retrieving random affirmation
+3b9b68f0e2a5915f13601fa4643805703540d0e9 Merge pull request #4 from mandywwl:test-folder
+f002e293fa860a5ae90b96a790cf9e5e10911dc5 Add new folder to test-folder branch
+67e7a247d989c543da252809a16b4db8b6732c1c refactor: Update landing page colors and text styles
+c89c711e8c2476fa987fd052c58f106b565cd4b3 Refactor homepage and profile views to include NavMenu component
+651a1e0b92a84d4c9024afcd1b143ae594d98aa4 chore: landing page edits
+b0e80a50b4e5293ca275401dc80d15e1b1439ae0 refactor: Update import path for index.css in main.jsx
+54fae27a2c40ae7258a0388d975da344c716e098 chore: Comment in head of main.jsx for clarification
+ffc2e3a67e30ead11269bb12b8229bf2fd850fc1 Edited index.html to link to routes folder
+76f83554fce83a8674ea218702133f57f7bd10df move main.jsx to routes folder under src folder
+dca4e4543893c3d13632cf05d80f245fd16a0891 Delete .DS_Store
+b20d6e091491d10268929067407d3d2a8fbde64f refactor: Update landing page comments and file names for clarity
+bc5ad00b4551b451d07f073cb359a7c8c4734732 refactor: Update navigation links in NavMenu component
+5feea7a09617e6af503ba96f5e5f3f2478d390a1 refactor: Rename App.jsx to Landing.jsx and update imports
+932725ba70a888e6e4f0a02f6c3edc7546e5efb2 chore: Update react-router-dom import in main.jsx and views
+aa4ffbe2f603c1382962883a83e36b57087a885f chore: Update react-router-dom to latest version
+e285c0111ad993aaa12d7f8b63d7641a5b9969d5 feat: Add NavMenu component for navigation links
+5547ade05a96ea303f77af7f50d95d5ecb3e8aa3 chore: Add react-router-dom to npm dependencies and changed App to Landing for clarity
+6d15715848fee91e190b6efc3b1697ca5d753289 chore: Remove unused HTML files from the public directory
+d25e3d6faf5d400840bd1540345bf54de7b2ce66 chore: Update TailwindCSS configuration to include public/index.html
+da1ba408fc0ac5bafe69f793cf003132d7f77c4a chore: Update npm dependencies and add TailwindCSS configuration files
+0f27783ecf2885ec611d7bd5046c7c6695fd12e3 chore: Update npm dependencies (TailwindCSS) in package.json
+9f331842d08cd9b2864c3b9d37b6a4261454fd66 chore: Add profile page to the SAGE app
+10f4a004c9fb25e3f6f7ddab71026775eea9cae5 Edited index.html
+8d43a49098f018684052ffb2f86200add2ce27a0 Edited README
+a91581a2e270cfc978e6dc9a9537fbe75c2e0b0d deleted template README
+aeb905420c484dbe1a8be377f0d89888b6133d49 Merge branch 'main' of https://github.com/mandywwl/asp-team101
+869a4707d07c9f83dc0d26d6cd7d6c0608ede0e8 chore: Remove react-router-dom import from main.jsx
+34ae889c89572806435fd105379f6fb391011606 chore: Update React imports and add routing for new views
+321184241ed2785135e722dc122a214578dc9b6f Create README.md
+28f677231c7dac8b300953aeaddf7ac7406211f1 updated index.html
+4b908d0746b44f33d1e3043f042dba2b797ac5da chore: Update App.jsx and index.html
+0094e0824ae7feb144f65123c10ebbaf4c65493c chore: Removed placeholder
+e5dcb758a9fc18c8c1eed7da0e0926bd6099e480 Removed placeholder
+7356ec3af26e62324614d2ffe4f1ea44543ed637 chore: Remove unused Back-end/main.js file
+b5c051aabfa4d2765df3523548d6fbd8aebe090f chore: Remove unused Back-end/main.js file
+c002b3f335b276bc93a2e891a86c24ec02371a74 installed Vite
+d94d37b1ebdf58ac1e4d33cf052d5f1231979b13 init base React
+1c574c97754080197be8a8001776899d999eec69 Update profile.html
+d49f532bfd083a54f94af46368e99ee23a1f0aa7 renamed files and added profile page
+1f86f00d6d365499f1bf56d6de95b3b4a2de49d8 Set up base HTML
+eb6d8d29411a5997f5b7ff2568ee5a278774771d install bootstrap
+f5216df831729c26a901a06e0490759ad83759f8 installed node dependencies
+37975564a41c31848aae84b45da6918974d2abe0 added index.js entry point file
+c88e0d6f1345d76bd40f377d864cdc01a019305b npm initialisation
+01e84c3f370b9084144be09f9449cbacc2c41b1d Delete Back-end/server.js
+7de52aed781d5bf8d74eb65bd88ad1c2573fc6c1 Delete Back-end/package.json
+8ec5c4e3e327ac99ce3e8a7d0f13b685681f1b88 Add files via upload
+61a243b198a94e149eca52d0f6ec573a52a3e1aa Delete .github/workflows/blank.yml
+65091bb833827a055a7c000d75458e671acb7f99 create index.html
+f77d29662d89ec58fb24ee44b24843756c59da02 Create .gitignore
+8915e62c36a36eaa2993f20da4ee85336252ec30 Update README.md
+2c7474c848a5944d06d9c859920f41c3772b13a9 Create blank.yml
+6524c4f03274f229143871e384a1bfcd2962bc6d Initial commit
