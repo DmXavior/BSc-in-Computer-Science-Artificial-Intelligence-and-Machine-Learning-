@@ -1,0 +1,297 @@
+/* Reset or base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Styles specific to author-home.ejs */
+.header.author-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(210, 11, 117);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.header.author-home h1 {
+    margin: 0;
+    color: white;
+}
+
+.navbar.author-home {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.navbar.author-home a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar.author-home a:hover {
+    background-color: lightpink;
+    color: black;
+}
+
+.footer.author-home {
+    margin-top: 50px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer.author-home p {
+    margin: 0;
+}
+
+.header.author-home .navbar {
+    margin-left: auto; /* Push the navbar to the right end */
+}
+
+.header.author-home .navbar a[href="/author/author-settings"] {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+}
+
+.header.author-home .navbar a[href="/author/author-settings"]:hover {
+    background-color: lightgray;
+}
+
+.header.author-home .navbar a[href="/author/login"] {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+}
+
+.header.author-home .navbar a[href="/author/login"]:hover {
+    background-color: lightgray;
+}
+
+.header.author-home .navbar a[href="/author/author-edit"] {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+}
+
+.header.author-home .navbar a[href="/author/author-edit"]:hover {
+    background-color: lightgray;
+}
+
+.header.author-home .navbar a[href="/"] {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+}
+
+.header.author-home .navbar a[href="/"]:hover {
+    background-color: lightgray;
+}
+
+/* Styles specific to reader-home.ejs */
+.header.reader-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 128, 128);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.header.reader-home h1 {
+    margin: 0;
+    color: white;
+}
+
+.navbar.reader-home {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.navbar.reader-home a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar.reader-home a:hover {
+    background-color: lightpink;
+    color: black;
+}
+
+.header.reader-home .navbar a[href="/"] {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+}
+
+.header.reader-home .navbar a[href="/"]:hover {
+    background-color: lightgray;
+}
+
+.header.reader-home .navbar a[href="/reader/reader-article"] {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+}
+
+.header.reader-home .navbar a[href="/reader/reader-article"]:hover {
+    background-color: lightgray;
+}
+
+.footer.reader-home {
+    margin-top: 50px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer.reader-home p {
+    margin: 0;
+}
+
+/* Styles specific to author-edit.ejs */
+.header.author-edit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(210, 11, 117);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.header.author-edit h1 {
+    margin: 0;
+    color: white;
+}
+
+.header.author-edit .navbar a[href="/author/author-settings"] {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+}
+
+.header.author-edit .navbar a[href="/author/author-settings"]:hover {
+    background-color: lightgray;
+}
+
+.header.author-edit .navbar a[href="/author/login"] {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+}
+
+.header.author-edit .navbar a[href="/author/login"]:hover {
+    background-color: lightgray;
+}
+
+.header.author-edit .navbar a[href="/"] {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+}
+
+.header.author-edit .navbar a[href="/"]:hover {
+    background-color: lightgray;
+}
+
+.header.author-edit .navbar a[href="/author/author-home"] {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+}
+
+.header.author-edit .navbar a[href="/author/author-home"]:hover {
+    background-color: lightgray;
+}
+
+/* Styles specific to reader-article.ejs */
+.header.reader-article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 128, 128);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.header.reader-article h1 {
+    margin: 0;
+    color: white;
+}
+
+.navbar.reader-article {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.navbar.reader-article a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.navbar.reader-article a:hover {
+    background-color: lightpink;
+    color: black;
+}
+
+.header.reader-article .navbar a[href="/"] {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove underline */
+}
+
+.header.reader-article .navbar a[href="/"]:hover {
+    background-color: lightgray;
+}
+
+.footer.reader-article {
+    margin-top: 50px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer.reader-article p {
+    margin: 0;
+}

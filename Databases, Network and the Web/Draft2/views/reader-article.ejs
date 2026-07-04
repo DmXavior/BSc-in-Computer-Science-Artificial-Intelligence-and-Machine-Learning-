@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reader Articles</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <header class="header reader-articles">
+        <div class="container">
+            <h1>Reader Articles</h1>
+        </div>
+        <nav class="navbar">
+            <a href="/" class="btn btn-secondary">Home</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section>
+            <h2>Latest Articles</h2>
+            <% articles.forEach(article => { %>
+                <article class="article">
+                    <h3><%= article.articletitle %></h3>
+                    <p><strong>Published By:</strong> <%= article.user_name %></p>
+                    <p><strong>Date Published:</strong> <%= article.datepublished %></p>
+                    <p><%= article.articletext %></p>
+
+                    <% if (article.comments && article.comments.length > 0) { %>
+                        <h4>Comments:</h4>
+                        <ul>
+                            <% article.comments.forEach(comment => { %>
+                                <li><%= comment.commenttext %></li>
+                            <% }); %>
+                        </ul>
+                    <% } else { %>
+                        <p>No comments yet.</p>
+                    <% } %>
+                </article>
+                <hr>
+            <% }); %>
+        </section>
+    </main>
+</body>
+</html>

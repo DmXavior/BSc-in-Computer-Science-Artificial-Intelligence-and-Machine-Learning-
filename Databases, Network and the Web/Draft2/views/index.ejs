@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogging Tool</title>
+    <!-- CSS files or stylesheets here --> 
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .bg-turquoise {
+            background-color: #40E0D0;
+        }
+        .hover\:bg-turquoise-dark:hover {
+            background-color: #36C2B1;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="container mx-auto p-4">
+        <h1 class="text-3xl font-bold text-center mb-4">Welcome to the Blogging Tool</h1>
+        <div class="flex justify-center">
+            <div class="w-full md:w-1/2 bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-xl font-bold mb-4 text-center">Choose Your Role</h2>
+                <div class="flex justify-center space-x-4">
+                    <a href="/author/author-home" class="bg-pink-500 hover:bg-pink-600 text-white font-bold py-4 px-8 rounded-lg text-xl">
+                        Author
+                    </a>
+                    <a href="/reader/reader-home" class="bg-turquoise hover:bg-turquoise-dark text-white font-bold py-4 px-8 rounded-lg text-xl">
+                        Reader
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

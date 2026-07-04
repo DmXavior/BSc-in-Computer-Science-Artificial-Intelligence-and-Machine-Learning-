@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Settings</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <header class="header author-settings">
+        <div class="container">
+            <h1>Author Settings</h1>
+        </div>
+        <nav class="navbar">
+            <a href="/author-home?username=<%= encodeURIComponent(userName) %>" class="btn btn-secondary">Back to Author Home</a>
+        </nav>
+    </header>
+    <main class="container">
+        <section>
+            <h2>Current Settings</h2>
+            <form action="/author/update-settings" method="POST">
+                <label for="blogTitle">Blog Title:</label>
+                <input type="text" id="blogTitle" name="blogTitle" value="<%= blogtitle %>" required>
+                <input type="hidden" name="userName" value="<%= userName %>">
+                <br>
+                <button type="submit" class="btn btn-primary">Save Settings</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
+
