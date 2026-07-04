@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Processing App</title>
+    <!-- Include p5.js library -->
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.sound.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #7d9eff, #95e0d9);
+            color: #333;
+        }
+
+        h1 {
+            margin: 20px 0;
+            font-size: 24px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        button {
+            font-size: 14px;
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 8px;
+            background-color: #789fd4;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #d7dce0;
+        }
+
+        button:active {
+            background-color: #367c39;
+        }
+
+        input[type="range"] {
+            width: 100%;
+        }
+
+        .filters-wrapper {
+            display: flex; /* Enable flexbox for side-by-side layout */
+            gap: 20px; /* Space between the containers */
+            justify-content: center; /* Center the containers horizontally */
+            margin: 20px 0; /* Add some margin above and below */
+        }
+
+        .filter-container {
+            border: 5px solid #6781a5;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px auto;
+            background-color: #f9f9f9;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+        }
+
+        .title-and-audio {
+            display: flex; /* Use flexbox for horizontal alignment */
+            flex-direction: column; /* Stack title and audio controls vertically */
+            align-items: center; /* Center items horizontally */
+        }
+
+        .filter-container h3 {
+            margin-top: 0;
+            text-align: center;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .filter-container div {
+            margin-bottom: 15px;
+        }
+
+        .filter-container label {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .filter-container span {
+            font-size: 12px;
+            color: #777;
+            margin-left: 10px;
+        }
+
+        .filter-container button {
+            margin-top: 10px;
+        }
+        
+        #audioSourceControls {
+        text-align: center;
+        margin: 10px 0;
+        background: none;
+        border: none;
+        padding: 0;
+        }
+
+        #volumeValue {
+            font-size: 14px;
+            color: #555;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="title-and-audio">
+        <h1>Audio Processing App</h1>
+        <div id="audioSourceControls" class="audio-source-container">
+            <label for="audioSourceSelector">Select Audio Source:</label>
+            <select id="audioSourceSelector">
+                <option value="file">Pre-recorded File</option>
+                <option value="mic">Microphone</option>
+            </select>
+        </div>
+    </div>
+    <div class="container">   
+        <!-- Buttons for the application -->
+        <button id="playButton">Play</button>
+        <button id="pauseButton">Pause</button>
+        <button id="stopButton">Stop</button>
+        <button id="skipStartButton">Skip to Start</button>
+        <button id="skipEndButton">Skip to End</button>
+        <button id="loopButton">Loop: Off</button>
+        <button id="muteButton">Mute: Off</button>
+        <button id="recordButton">Record</button>
+        <input type="range" id="volumeSlider" min="0" max="2" step="0.01" value="1">
+        <span id="volumeValue">Master Volume Level = 0.5x</span>
+    </div>
+    <div class="filters-wrapper">
+        <div id="filterContainer" class="filter-container">
+            <h3>Filter Controls</h3>
+            <button id="filterToggleButton">Filter: Off</button>
+            <label for="filterTypeSelector">Filter Type:</label>
+            <select id="filterTypeSelector">
+                <option value="lowpass">Low-Pass</option>
+                <option value="highpass">High-Pass</option>
+                <option value="bandpass">Band-Pass</option>
+            </select>
+            <div>
+                <label for="freqSlider">Frequency (Hz):</label>
+                <input type="range" id="freqSlider" min="10" max="22050" step="1">
+                <span id="freqValue">1000</span>
+            </div>
+            <div>
+                <label for="resSlider">Resonance (Q):</label>
+                <input type="range" id="resSlider" min="0" max="10" step="0.1">
+                <span id="resValue">1</span>
+            </div>
+            <div>
+                <label for="dryWetSlider">Dry/Wet Mix:</label>
+                <input type="range" id="dryWetSlider" min="0" max="1" step="0.01" value="0.5">
+                <span id="dryWetValue">0.5</span>
+                <small>(0 = Dry, 1 = Wet)</small>
+            </div>
+            <div>
+                <label for="outputLevelSlider">Output Level:</label>
+                <input type="range" id="outputLevelSlider" min="0" max="2" step="0.01" value="1">
+                <span id="outputLevelValue">1</span>
+                <small>(0 = Mute, 1 = Original, >1 = Amplified)</small>
+            </div>
+        </div>
+
+        <div id="waveshaperContainer" class="filter-container">
+            <h3>Waveshaper Distortion Controls</h3>
+            <button id="waveshaperToggleButton">Waveshaper: Off</button>
+            <div>
+                <label for="distortionAmountSlider">Distortion Amount:</label>
+                <input type="range" id="distortionAmountSlider" min="0" max="1" step="0.01" value="0.5">
+                <span id="distortionAmountValue">0.5</span>
+            </div>
+            <div>
+                <label for="waveshaperOversampleButton">Oversample:</label>
+                <button id="waveshaperOversampleButton">Oversample: Off</button>
+            </div>
+            <div>
+                <label for="waveshaperDryWetSlider">Dry/Wet Mix:</label>
+                <input type="range" id="waveshaperDryWetSlider" min="0" max="1" step="0.01" value="0.5">
+                <span id="waveshaperDryWetValue">0.5</span>
+            </div>
+            <div>
+                <label for="waveshaperOutputSlider">Output Level:</label>
+                <input type="range" id="waveshaperOutputSlider" min="0" max="2" step="0.01" value="1">
+                <span id="waveshaperOutputValue">1</span>
+            </div>
+        </div>
+        <div id="delayContainer" class="filter-container">
+            <h3>Delay Effect Controls</h3>
+            <button id="delayToggleButton">Delay: Off</button>
+            <div>
+                <label for="delayTimeSlider">Delay Time (s):</label>
+                <input type="range" id="delayTimeSlider" min="0.1" max="5" step="0.1" value="0.5">
+                <span id="delayTimeValue">0.5s</span>
+            </div>
+            <div>
+                <label for="feedbackSlider">Feedback (%):</label>
+                <input type="range" id="feedbackSlider" min="0" max="1" step="0.01" value="0.5">
+                <span id="feedbackValue">50%</span>
+            </div>
+            <div>
+                <label for="filterSlider">Filter Frequency (Hz):</label>
+                <input type="range" id="filterSlider" min="200" max="5000" step="50" value="2300">
+                <span id="filterValue">2300Hz</span>
+            </div>
+        </div>
+        <div id="compressorContainer" class="filter-container">
+            <h3>Dynamic Compressor Controls</h3>
+            <button id="compressorToggleButton">Compressor: Off</button>
+            <div>
+                <label for="thresholdSlider">Threshold (dB):</label>
+                <input type="range" id="thresholdSlider" min="-60" max="0" step="1" value="-24">
+                <span id="thresholdValue">-24</span>
+            </div>
+            <div>
+                <label for="ratioSlider">Ratio:</label>
+                <input type="range" id="ratioSlider" min="1" max="20" step="1" value="4">
+                <span id="ratioValue">4</span>
+            </div>
+            <div>
+                <label for="attackSlider">Attack (ms):</label>
+                <input type="range" id="attackSlider" min="0" max="1000" step="10" value="20">
+                <span id="attackValue">20</span>
+            </div>
+            <div>
+                <label for="releaseSlider">Release (ms):</label>
+                <input type="range" id="releaseSlider" min="0" max="1000" step="10" value="200">
+                <span id="releaseValue">200</span>
+            </div>
+            <div>
+                <label for="kneeSlider">Knee (dB):</label>
+                <input type="range" id="kneeSlider" min="0" max="40" step="1" value="10">
+                <span id="kneeValue">10</span>
+            </div>
+            <div>
+                <label for="compressorDryWetSlider">Dry/Wet Mix:</label>
+                <input type="range" id="compressorDryWetSlider" min="0" max="1" step="0.01" value="0.5">
+                <span id="compressorDryWetValue">0.5</span>
+                <small>(0 = Dry, 1 = Wet)</small>
+            </div>
+            <div>
+                <label for="compressorOutputLevelSlider">Output Level:</label>
+                <input type="range" id="compressorOutputLevelSlider" min="0" max="2" step="0.01" value="1">
+                <span id="compressorOutputLevelValue">1</span>
+            </div>
+        </div>
+        <div id="reverbContainer" class="filter-container">
+            <h3>Reverb Controls</h3>
+            <button id="reverbToggleButton">Reverb: Off</button>
+            <div>
+                <label for="reverbDurationSlider">Reverb Duration (s):</label>
+                <input type="range" id="reverbDurationSlider" min="0.1" max="10" step="0.1" value="2">
+                <span id="reverbDurationValue">2</span>
+            </div>
+            <div>
+                <label for="reverbDecaySlider">Decay Rate:</label>
+                <input type="range" id="reverbDecaySlider" min="0" max="1" step="0.01" value="0.5">
+                <span id="reverbDecayValue">0.5</span>
+            </div>
+            <div>
+                <label for="reverbDryWetSlider">Dry/Wet Mix:</label>
+                <input type="range" id="reverbDryWetSlider" min="0" max="1" step="0.01" value="0.5">
+                <span id="reverbDryWetValue">0.5</span>
+            </div>
+            <div>
+                <label for="reverbOutputSlider">Output Level:</label>
+                <input type="range" id="reverbOutputSlider" min="0" max="2" step="0.01" value="1">
+                <span id="reverbOutputValue">1</span>
+            </div>
+            <button id="reverbReverseButton">Reverse: Off</button>
+        </div>
+    </div>
+    <script src="sketch.js"></script>
+</body>
+</html>

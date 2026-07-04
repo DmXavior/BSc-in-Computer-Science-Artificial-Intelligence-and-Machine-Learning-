@@ -1,0 +1,34 @@
+Non-Compliant Films Report:
+
+Film: Last_man_on_earth_1964.mov
+Container should be mp4, found mov
+Video Codec should be h264, found prores
+Audio Codec should be aac, found pcm_s16le
+Frame Rate should be 25.00 FPS, found 23.98 FPS
+Video Bit Rate should be between 2.0 - 5.0 Mb/s, found 9.29 Mb/s
+Audio Bit Rate should be up to 256.0 kb/s, found 1536.0 kb/s
+
+Film: Voyage_to_the_Planet_of_Prehistoric_Women.mp4
+Video Codec should be h264, found hevc
+Audio Codec should be aac, found mp3
+Frame Rate should be 25.00 FPS, found 29.97 FPS
+Video Bit Rate should be between 2.0 - 5.0 Mb/s, found 8.04 Mb/s
+Audio Bit Rate should be up to 256.0 kb/s, found 320.0 kb/s
+
+Film: The_Gun_and_the_Pulpit.avi
+Container should be mp4, found avi
+Video Codec should be h264, found rawvideo
+Audio Codec should be aac, found pcm_s16le
+Aspect Ratio should be 16:9, found 720:404
+Resolution should be 640x360, found 720x404
+Video Bit Rate should be between 2.0 - 5.0 Mb/s, found 87.44 Mb/s
+Audio Bit Rate should be up to 256.0 kb/s, found 1536.0 kb/s
+
+Film: Cosmos_War_of_the_Planets.mp4
+Frame Rate should be 25.00 FPS, found 29.97 FPS
+Aspect Ratio should be 16:9, found 314:177
+Resolution should be 640x360, found 628x354
+Audio Bit Rate should be up to 256.0 kb/s, found 317.1 kb/s
+
+Film: The_Hill_Gang_Rides_Again.mp4
+Video Bit Rate should be between 2.0 - 5.0 Mb/s, found 7.54 Mb/s

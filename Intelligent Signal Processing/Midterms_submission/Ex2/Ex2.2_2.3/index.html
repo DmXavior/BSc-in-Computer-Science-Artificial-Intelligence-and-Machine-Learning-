@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Visualization</title>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/meyda.min.js"></script>
+    <script src="libraries/p5.speech.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+        }
+        canvas {
+            display: block;
+            margin: 20px auto;
+        }
+        select, button {
+            font-size: 1rem;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #1e90ff;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        select:hover, button:hover {
+            background-color: #63b3ed;
+        }
+        select:focus, button:focus {
+            outline: none;
+        }
+        #rmsButton {
+            background-color: green; /* Default color for RMS off */
+        }
+        #rmsButton.active {
+            background-color: orange; /* Color when RMS is toggled on */
+        }
+        #spectralRolloffButton {
+            background-color: green; /* Default color for RMS off */
+        }
+        #spectralRolloffButton.active {
+            background-color: orange; /* Color when RMS is toggled on */
+        }
+        #zcrButton {
+            background-color: green; /* Default color for RMS off */
+        }
+        #zcrButton.active {
+            background-color: orange; /* Color when RMS is toggled on */
+        }
+        #voiceButton {
+            background-color: grey; /* Default for Disabled */
+        }
+    </style>
+</head>
+<body>
+    <h1>Audio Visualization with Meyda</h1>
+    <select id="audioDropdown">
+        <option value="">Select an audio</option>
+        <option value="Ex2_sound1.wav">Ex2_sound1</option>
+        <option value="Ex2_sound2.wav">Ex2_sound2</option>
+        <option value="Ex2_sound3.wav">Ex2_sound3</option>
+        <option value="Kalte_Ohren_(_Remix_).mp3">Kalte_Ohren</option>
+    </select>
+    <div id="controls">
+        <button id="playButton">Play</button>
+        <button id="pauseButton">Pause</button>
+        <button id="stopButton">Stop</button>
+        <button id="voiceButton">Voice Control: Disabled</button>
+    </div>
+    <div id="meydaControls">
+        <button id="rmsButton">RMS Off</button>
+        <button id="spectralRolloffButton">Spectral Rolloff Off</button>
+        <button id="zcrButton">ZCR Off</button>
+    </div>
+    <script src="sketch.js"></script>
+</body>
+</html>

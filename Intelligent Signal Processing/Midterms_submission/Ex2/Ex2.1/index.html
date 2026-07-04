@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Captcha</title>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.sound.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/p5.speech.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f9;
+        }
+        #captcha-container {
+            display: inline-block;
+            margin: 20px auto;
+            text-align: center;
+        }
+        #instruction-box {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+        button {
+            font-size: 1rem;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* Default button styles */
+        button {
+            transition: all 0.2s ease; /* Smooth transition for click effect */
+        }
+
+        /* Click effect */
+        .button-clicked {
+            transform: scale(0.95); /* Slightly shrink the button */
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+            opacity: 0.8; /* Reduce opacity */
+        }
+        input[type="text"] {
+            font-size: 1rem;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 80%;
+        }
+        #result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="instruction-box">Type in the sentence you hear.</div>
+    <div id="instruction-box">Omit punctuation.</div>
+    <div id="captcha-container">
+        <button id="playCaptcha">▶ Play Captcha</button>
+        <button id="refreshCaptcha">🔄 Refresh Captcha</button>
+        <input type="text" id="userInput" placeholder="Type what you hear..." />
+        <button id="submitCaptcha">Submit</button>
+        <div id="result">Status: Waiting for input...</div>
+    </div>
+    <script src="sketch.js"></script>
+</body>
+</html>
